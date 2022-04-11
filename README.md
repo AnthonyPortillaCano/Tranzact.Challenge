@@ -33,16 +33,15 @@ Visual Studio 2022
 Net 6
 Sql Server 2019
 ----Creacion de base de datos
-Dentro del proyecto Challenge.Data en consola de nuget
-Add-Migration NameMigration
+Dentro del proyecto Challenge.Data en consola de nuget:
 
+Add-Migration NameMigration
 Update-Database 
 
 De igual manera se adjuntara el script para la creacion de la base de datos en caso no puedan crearlo mediante comando codefirst:
 El archivo se llama ScriptDB.sql
 
 Finalmente
-
 Hay dos opciones para correr los apis uno con el proyecto Challenge.WebApi y el otro con Challenge.MinimalApi este ultimo es otra manera de crear apis
 mediante minimal api.
 
