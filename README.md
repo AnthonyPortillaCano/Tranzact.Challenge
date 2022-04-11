@@ -29,19 +29,23 @@ Se debe usar una estructura de proyecto de n-capas
     • detalle: data bd local.
 ```
 Tecnologias:
-Visual Studio 2022
-Net 6
-Sql Server 2019
+ • Visual Studio 2022
+ • Net 6
+ • Sql Server 2019
+ • Mock Server Postman
+
 ----Creacion de base de datos
 Dentro del proyecto Challenge.Data en consola de nuget:
 
-Add-Migration NameMigration
-Update-Database 
+ • Add-Migration NameMigration
+ • Update-Database 
 
 De igual manera se adjuntara el script para la creacion de la base de datos en caso no puedan crearlo mediante comando codefirst:
-El archivo se llama ScriptDB.sql
+El archivo se llama  
+• ScriptDB.sql
 
 Finalmente
+
 Hay dos opciones para correr los apis uno con el proyecto Challenge.WebApi y el otro con Challenge.MinimalApi este ultimo es otra manera de crear apis
 mediante minimal api.
 
